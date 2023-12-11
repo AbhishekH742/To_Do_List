@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center/ cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.add-task-container {
+    background-color: #ffffff27;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 555px;
+    display: flex;
+
+    box-shadow: 0 0 10px;
+
+    backdrop-filter: blur(10px);
+}
+
+input {
+    flex: 3;
+    padding: 5px 5px;
+    margin: 2px 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.253);
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+
+}
+
+.add-task {
+    flex: 0.5;
+    transition: .5s;
+    padding: 5px 5px;
+    margin: 2px 5px;
+    color: green;
+    font-size: 25px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.253);
+    cursor: pointer;
+
+    backdrop-filter: blur(100px);
+
+}
+
+.add-task:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Css for task Container */
+
+
+
+.task {
+    background-color: #ffffff44;
+    padding: 10px 10px;
+    margin: 10px auto;
+    border-radius: 20px;
+    width:555px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    box-shadow: 0 0 10px black;
+
+    backdrop-filter: blur(10px);
+
+
+}
+
+.task li {
+    list-style: none;
+    flex: 4;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.task button {
+    flex: 1;
+    padding: 5px 20px;
+    margin: 0px 5px;
+    background-color: #ffffff44;
+    border-radius: 7px;
+
+    backdrop-filter: blur(10px);
+
+
+}
+
+.check-btn {
+    border: 2px solid orange;
+}
+
+.delete-btn {
+    border: 2px solid red;
+}
+
+.check-btn:hover {
+    background-color: rgba(255, 166, 0, 0.783);
+}
+
+.delete-btn:hover {
+    background-color: red;
+}
